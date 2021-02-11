@@ -7,6 +7,9 @@
   "license": [
     "GPL-3.0-only"
   ],
+  "bin": [
+    "./bin/reset-shop-database"
+  ],
   "autoload": {
     "psr-4": {
       "OxidEsales\\DeveloperTools\\": "./src"

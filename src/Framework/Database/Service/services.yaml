@@ -1,0 +1,23 @@
+services:
+    _defaults:
+        autowire: true
+        public: true
+
+    OxidEsales\DeveloperTools\Framework\Database\Service\DropDatabaseServiceInterface:
+        class: OxidEsales\DeveloperTools\Framework\Database\Service\DropDatabaseService
+
+    OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseCreatorInterface:
+        class: OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseCreator
+
+    OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseInitiatorInterface:
+        class: OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseInitiator
+
+    OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseCheckerInterface:
+        class: OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseChecker
+
+    OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseViewsGeneratorInterface:
+        class: OxidEsales\DeveloperTools\Framework\Database\Service\DatabaseViewsGenerator
+
+    OxidEsales\DeveloperTools\Framework\Database\Service\ResetDatabaseServiceInterface:
+        class: OxidEsales\DeveloperTools\Framework\Database\Service\ResetDatabaseService
+        public: true

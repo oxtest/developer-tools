@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [v2.0.0] - unreleased
 
+### Added
+- Reset shop service
+
 ## [v1.0.1] - 2020-04-21
 
 ### Fixed
