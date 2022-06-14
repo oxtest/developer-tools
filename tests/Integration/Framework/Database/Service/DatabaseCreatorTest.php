@@ -100,7 +100,7 @@ class DatabaseCreatorTest extends TestCase
                 $this->params['dbPwd'],
                 [PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8']
             );
-            $dbConnection->exec('DROP DATABASE ' . $this->params['dbName']);
+            $dbConnection->exec('DROP DATABASE IF EXISTS ' . $this->params['dbName']);
         } catch (\Throwable $exception) {
             throw new \Exception('Failed: Could not drop database');
         }
